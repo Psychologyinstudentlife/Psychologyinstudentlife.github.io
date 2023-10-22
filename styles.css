@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* Set the background image and define its properties */
+    background-image: url('background photo.jpg');
+    background-size: cover; /* This property ensures the background image covers the entire viewport */
+    background-position: center; /* Center the background image */
+    color: #333;
+    margin: 0;
+    padding: 0;
+.overlay {
+    /* Semi-transparent overlay properties */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the last value (0.5) for transparency */
+    z-index: -1; /* Place the overlay behind other content */
+}
+}/* styles.css */
+
+/* Rest of your styles */
+
+header {
+    background-color: #4CAF50;
+    color:white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+color: white;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+color: white;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+	color: black;
+	
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 5px 5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* styles.css */
+
+/* Style for the article image */
+.article-image {
+    width: 100%; /* Ensures the image takes up 100% of its parent container */
+    max-width: 600px; /* Limits the maximum width of the image */
+    height: auto; /* Maintains the aspect ratio of the image */
+    display: block; /* Ensures the image is displayed as a block element */
+    margin: 20px auto; /* Adds margin for spacing around the image */
+}
+.lower-footer {
+    margin-top: 10px; /* Adjust the value to lower the footer by changing the margin-top */
+}
+/* styles.css */
+
+/* Set the width and height of the images */
+Psych 1 photo {
+    width: 600px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+}
+
+/* Center-align the images within their parent container */
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+Psych 2 photo {
+    width: 60px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+
+

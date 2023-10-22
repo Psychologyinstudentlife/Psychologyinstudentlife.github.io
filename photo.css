@@ -1,0 +1,10 @@
+/* styles.css */
+
+/* Style for the article image */
+.article-image {
+    width: 100%; /* Ensures the image takes up 100% of its parent container */
+    max-width: 600px; /* Limits the maximum width of the image */
+    height: auto; /* Maintains the aspect ratio of the image */
+    display: block; /* Ensures the image is displayed as a block element */
+    margin: 20px auto; /* Adds margin for spacing around the image */
+}
